@@ -4,7 +4,15 @@
 	<title>Blog List</title>
 </head>
 <body>
-	<p>Hi there!</p>
-	<p>It Works!</p>
-</body>
+        <div>
+            <h1><a href="">List of stories</a></h1>
+        </div>
+	     {% for post in posts %}
+    	<div>
+        	<p>published: {{ post.published_date }}</p>
+        	<h1><a href="">{{ post.title }}</a></h1>
+        	<p>{{ post.text|linebreaks }}</p>
+    	</div>
+{% endfor %}
+    </body>
 </html>
