@@ -20,7 +20,7 @@ h1 a {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Gill Sans', cursive;
+    font-family: 'Gill Sans', "Verdana", "Times";
 }
 
 .date {
@@ -44,7 +44,7 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
-		font-family: "Gill sans";
+		font-family: "Gill sans", "Verdana", "Times";
 		font-size: 16;
 }
 
@@ -52,6 +52,6 @@ h1, h2, h3, h4 {
     color: #000000;
 }
 body{
-	background-color: #BB6F83;
+	background-color: #FAEBD7;
 	color: black;
 }
