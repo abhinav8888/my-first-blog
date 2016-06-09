@@ -24,7 +24,7 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    color: black;
+    color: #a94442;
 }
 
 .save {
@@ -54,4 +54,16 @@ h1, h2, h3, h4 {
 body{
 	background-color: #FAEBD7;
 	color: black;
+}
+.divider{
+	display: block;
+	padding: 20 0 0 20;
+}
+img {
+    width: 300;
+    height: 300;
+    display: inline-block;
+    margin-left: 200;
+    margin-right: 200;
+    position: static;
 }
